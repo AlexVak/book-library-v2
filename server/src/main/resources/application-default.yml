@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    platform: h2
+  jpa:
+    show-sql: true
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 100MB
+      max-request-size: 100MB
